@@ -1,0 +1,50 @@
+name: Signaler un bogue
+description: Un comportement qui ne correspond pas à ce qui est documenté.
+labels: ["bogue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci. Les quatre champs ci-dessous ne sont pas de la paperasse : le
+        défaut corrigé en 0.1.3 ne se manifestait qu'en permaliens simples, et
+        il serait resté invisible sans cette information.
+  - type: textarea
+    id: observe
+    attributes:
+      label: Ce que vous observez
+      description: Et ce que vous attendiez à la place.
+    validations:
+      required: true
+  - type: input
+    id: wordpress
+    attributes:
+      label: Version de WordPress
+      placeholder: "6.8.1"
+    validations:
+      required: true
+  - type: input
+    id: php
+    attributes:
+      label: Version de PHP
+      placeholder: "8.2.20"
+    validations:
+      required: true
+  - type: dropdown
+    id: permaliens
+    attributes:
+      label: Structure des permaliens
+      description: Réglages → Permaliens.
+      options:
+        - Simples (?p=123)
+        - Jolis (/titre-de-larticle/)
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: entetes
+    attributes:
+      label: Réponse HTTP, si le défaut la concerne
+      description: |
+        Sortie de `curl -I https://votre-site.fr/` et, le cas échéant,
+        de `curl -I https://votre-site.fr/robots.txt`.
+      render: text

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question d'usage
+    url: https://mesplugins.fr/contact/
+    about: Pour une question qui n'est pas un défaut du plugin.

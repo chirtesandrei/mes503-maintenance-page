@@ -1,0 +1,127 @@
+.mpmm-wrap {
+	max-width: 1050px;
+}
+
+.mpmm-heading {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 24px;
+	margin: 28px 0 24px;
+}
+
+.mpmm-heading h1 {
+	margin: 3px 0 6px;
+	font-size: 32px;
+}
+
+.mpmm-heading p {
+	margin: 0;
+	color: #646970;
+}
+
+.mpmm-kicker {
+	color: #6546e8 !important;
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+}
+
+.mpmm-panel {
+	padding: 26px;
+	border: 1px solid #dcdcde;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0 6px 20px rgba(35, 28, 70, .04);
+}
+
+.mpmm-status-panel {
+	margin-bottom: 20px;
+}
+
+.mpmm-switch-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.mpmm-switch-row span {
+	display: grid;
+	gap: 6px;
+}
+
+.mpmm-switch-row strong {
+	font-size: 16px;
+}
+
+.mpmm-switch-row small {
+	color: #646970;
+}
+
+.mpmm-switch-row input {
+	width: 44px;
+	height: 24px;
+}
+
+.mpmm-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.mpmm-panel h2 {
+	margin-top: 0;
+}
+
+/*
+ * L'interrupteur est lui aussi un <label> enfant direct d'un panneau. Sans
+ * l'exclusion, cette règle l'emporte en spécificité (0,1,1 contre 0,1,0) et
+ * casse sa disposition en ligne.
+ */
+.mpmm-panel > label:not(.mpmm-switch-row) {
+	display: block;
+	margin: 19px 0 7px;
+	font-weight: 650;
+}
+
+.mpmm-panel input.regular-text,
+.mpmm-panel textarea {
+	width: 100%;
+}
+
+.mpmm-logo-preview:empty {
+	display: none;
+}
+
+.mpmm-logo-preview img {
+	display: block;
+	max-width: 230px;
+	max-height: 100px;
+	margin-bottom: 12px;
+	object-fit: contain;
+}
+
+.mpmm-media-actions,
+.mpmm-inline-field {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.mpmm-inline-field input {
+	width: 120px;
+}
+
+@media (max-width: 782px) {
+	.mpmm-heading,
+	.mpmm-switch-row {
+		align-items: stretch;
+		flex-direction: column;
+	}
+
+	.mpmm-grid {
+		grid-template-columns: 1fr;
+	}
+}

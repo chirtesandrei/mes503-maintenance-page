@@ -1,0 +1,8 @@
+plugin,version,maintenance_active,accueil,accueil_retry,accueil_xrobots,accueil_meta_noindex,robots_code,robots_type,favicon_code,favicon_type,login_code
+mes503-maintenance-page,0.1.4,oui,503,3600,noindex, nofollow, noarchive,oui,200,text/plain,302,text/html,200
+wp-maintenance-mode,2.6.23,oui,503,3600,-,non,503,text/html,503,text/html,200
+maintenance,4.32,oui,200,-,-,non,200,text/plain,302,text/html,200
+minimal-coming-soon-maintenance-mode,2.45,oui,200,-,-,non,200,text/html,200,text/html,200
+coming-soon,6.20.8,oui,503,86400,-,non,503,text/html,503,text/html,200
+maintenance (503 activé),4.32,oui,503,3600,-,non,200,text/plain,302,text/html,200
+coming-soon (mode bientôt disponible),6.20.8,oui,200,-,-,non,200,text/html,200,text/html,200

@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mes503 Maintenance Page 0.1.4\n"
+"Report-Msgid-Bugs-To: https://mesplugins.fr/\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: mes503-maintenance-page\n"
+
+msgid "Website under maintenance"
+msgstr "Site en maintenance"
+
+msgid "We will be back shortly."
+msgstr "Nous revenons bientôt."
+
+msgid "A short update is in progress. Please come back in a few moments."
+msgstr "Une courte intervention est en cours. Merci de revenir dans quelques instants."
+
+msgid "Maintenance mode"
+msgstr "Mode maintenance"
+
+msgid "The button stays hidden until a valid URL is provided."
+msgstr "Le bouton ne sera pas affiché tant qu’une URL valide ne sera pas renseignée."
+
+msgid "Choose a logo"
+msgstr "Choisir un logo"
+
+msgid "Use this logo"
+msgstr "Utiliser ce logo"
+
+msgid "A clear page for your visitors, normal access for administrators."
+msgstr "Une page claire pour vos visiteurs, un accès normal pour les administrateurs."
+
+msgid "Preview"
+msgstr "Prévisualiser"
+
+msgid "Enable maintenance mode"
+msgstr "Activer le mode maintenance"
+
+msgid "Logged-in administrators keep seeing the website normally."
+msgstr "Les administrateurs connectés continueront à voir le site normalement."
+
+msgid "Content"
+msgstr "Contenu"
+
+msgid "Browser tab title"
+msgstr "Titre de l’onglet"
+
+msgid "Main heading"
+msgstr "Titre principal"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Optional button label"
+msgstr "Texte du bouton facultatif"
+
+msgid "Button URL"
+msgstr "URL du bouton"
+
+msgid "Appearance and search engines"
+msgstr "Apparence et référencement"
+
+msgid "Accent color"
+msgstr "Couleur principale"
+
+msgid "Optional logo"
+msgstr "Logo facultatif"
+
+msgid "Remove"
+msgstr "Retirer"
+
+msgid "Suggested retry delay"
+msgstr "Nouvelle tentative conseillée"
+
+msgid "seconds"
+msgstr "secondes"
+
+msgid "The page returns an HTTP 503 status, a Retry-After header, and noindex instructions."
+msgstr "La page renvoie un statut HTTP 503, un en-tête Retry-After et une consigne noindex."
+
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+msgid "Maintenance in progress"
+msgstr "Maintenance en cours"
+
+msgid "Maintenance mode is active"
+msgstr "Mode maintenance actif"
+
+msgid "Settings"
+msgstr "Réglages"

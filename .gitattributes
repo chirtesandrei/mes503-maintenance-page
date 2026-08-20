@@ -1,0 +1,7 @@
+# Le dépôt GitHub est un export reconstruit sur une machine Windows. Sans
+# cette règle, Git y écrirait des fins de ligne CRLF : le test d'intégration
+# deviendrait inexécutable sur le VPS Linux, et les fichiers PHP arriveraient
+# en CRLF chez les contributeurs.
+* text=auto eol=lf
+*.png binary
+*.mo binary

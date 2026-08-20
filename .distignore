@@ -1,0 +1,15 @@
+# Fichiers présents dans le dépôt mais exclus de l'archive distribuée
+# et du dossier trunk/ envoyé sur WordPress.org.
+
+.distignore
+assets
+tests
+QA-CHECKLIST.md
+SPECIFICATION-V0.1.0.md
+# Le .pot part avec l'archive : il sert de catalogue source.
+# WordPress.org distribue les traductions ; .po et .mo restent hors du paquet.
+languages/*.po
+languages/*.mo
+README.md
+.gitattributes
+.github
